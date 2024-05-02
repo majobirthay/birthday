@@ -1,4 +1,4 @@
-
+/* Set the colour and the position of the background and the elements */
 body {
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@ h1{
   animation: up 3s linear infinite;
 }
 
-
+/* Style the envelope and the card */
 .envelope {
   position: relative;
   width: 300px;
@@ -66,11 +66,13 @@ h1{
 .text {
   position: absolute;
   font-family:  'Brush Script MT', cursive;
-  font-size: 23px;
-  line-height: 25px;
+  font-size: 22px;
+  line-height: 20px;
   top: 19px;
-  left: 18px;
+  left: 17px;
+  right: 17px;
   color: #003049;
+  text-align: justify;
 }
 .heart{
   height: 40px;
@@ -101,7 +103,7 @@ h1{
 }
 
 
-
+/* To move the envelope up and down */
 @keyframes up {
   0%,
   100% {
