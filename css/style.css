@@ -1,4 +1,4 @@
-/* Set the colour and the position of the background and the elements */
+
 body {
   display: flex;
   justify-content: center;
@@ -22,7 +22,6 @@ h1{
   animation: up 3s linear infinite;
 }
 
-/* Style the envelope and the card */
 .envelope {
   position: relative;
   width: 300px;
@@ -69,8 +68,7 @@ h1{
   font-size: 22px;
   line-height: 20px;
   top: 19px;
-  left: 17px;
-  right: 17px;
+  left: 15px;
   color: #003049;
   text-align: justify;
 }
